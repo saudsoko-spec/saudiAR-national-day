@@ -244,7 +244,7 @@ if st.session_state.page == "home":
             unsafe_allow_html=True,
         )
         # ضع رابط موقعك السحابي الحقيقي هنا لكي يعمل الكود بدقة عند الزوار
-        live_app_url = "https://share.streamlit.io"
+        live_app_url = "https://saudiar-national-day-bjjwdthbwqune7uudg3ssm.streamlit.app/"
         qr_api_url = f"https://api.qrserver.com/v1/create-qr-code/?size=180x180&data={live_app_url}"
         st.markdown(
             f"""
